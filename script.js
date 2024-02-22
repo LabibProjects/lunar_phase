@@ -32,7 +32,7 @@ function updateMoonPosition() {
     const angle = ((currentDate - 1) / 30) * 360;
     const x = orbitRadius * Math.cos(degreesToRadians(angle));
     const y = orbitRadius * Math.sin(degreesToRadians(angle));
-    moon.style.left = `${790 + x}px`;
+    moon.style.left = `${600 + x}px`;
     moon.style.top = `${400 + y}px`;
 }
 
